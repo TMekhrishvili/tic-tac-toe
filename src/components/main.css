@@ -1,0 +1,29 @@
+.main-container {
+    background-color: rgb(228, 250, 250);
+    width: 380px;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.cell {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(191, 158, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 15px rgb(55, 11, 143);
+    cursor: pointer;
+}
+
+.cell:hover{
+    opacity: 70%;
+}
+
+.img{
+    width: 55%;
+    height: auto;
+}
